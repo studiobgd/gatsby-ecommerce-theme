@@ -39,7 +39,7 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
+          test 3{' '}
           <span className={styles.gold}>matter design.</span>
         </p>
         <p>
@@ -79,7 +79,7 @@ const IndexPage = () => {
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
             title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
+            description={`dasadasdasdasdasd's oldest spinners based in Fife`}
             textLink={'shop now'}
             link={'/shop'}
           />
