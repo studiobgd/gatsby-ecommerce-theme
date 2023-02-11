@@ -30,7 +30,7 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'EPOMI'}
+        title={'Epomi'}
         subtitle={'Tu de unde iti cumperi pomi?'}
         ctaText={'Cumpara Acum'}
         ctaAction={goToShop}
@@ -39,19 +39,19 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          test 3{' '}
-          <span className={styles.gold}>matter design.</span>
+          Aducem{' '}
+          <span className={styles.gold}>pomi fructiferi</span>
         </p>
         <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+          pentru <span className={styles.gold}>gradinile</span> voastre si{' '}
+          <span className={styles.gold}>garantam calitatea</span>
         </p>
       </div>
 
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Catalog'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -59,7 +59,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Nou pe stoc'} link={'/shop'} textLink={'Exploreaza'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -78,8 +78,8 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`dasadasdasdasdasd's oldest spinners based in Fife`}
+            title={'Colectam pomi de cea mai mare calitate.'}
+            description={`Colectam pomi de cea mai inalta calitate de la producatori locali si ii aducem in gradina dumneavoastra.`}
             textLink={'shop now'}
             link={'/shop'}
           />
@@ -88,26 +88,26 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={'/banner2.png'} title={`-50% off \n All Essentials`} />
+        <Hero image={'/banner2.png'} title={`-50% off \n Soiuri Clasice`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>Pomi</Link>
+          <Link to={'/shop'}>Vita</Link>
         </div>
       </div>
 
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'Misiunea noastră:'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“Misiunea noastră este de a face procesul de cultivare a propriilor fructe cât mai ușor și accesibil posibil. Suntem dedicați oferirii clienților noștri a celor mai bune pomi de calitate, sfaturi expert, și un serviciu excepțional de client.”'
         }
       />
 
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'Multumiri'} subtitle={'Bine ați venit în lumea pomilor fructiferi de calitate! Compania noastră este dedicată furnizării clienților săi cu pomii fructiferi de cea mai înaltă calitate disponibili. Credem că accesul la fructe proaspete și delicioase cultivate în propriul curte este un aspect valoros și esențial al unui stil de viață sănătos.'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
@@ -116,9 +116,8 @@ const IndexPage = () => {
       <div className={styles.sustainableContainer}>
         <Hero
           image={'/banner3.png'}
-          title={'We are Sustainable'}
-          subtitle={
-            'ojbvjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjwwwwwwwwwww.'
+          title={'Modalități de plată și livrare:'}
+          subtitle={'In momentul de fata acceptam doar plata ramburs.Livrăm pomii noștri fructiferi în siguranță la adresa dvs. și vom fi întotdeauna deschiși pentru a asigura că sunteți mulțumiți de livrare.'
           }
           ctaText={'read more'}
           maxWidth={'660px'}
@@ -129,8 +128,8 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          name={'Concluzie:'}
+          subtitle={'Vă mulțumim că ați ales să cumpărați pomii fructiferi de la noi. Suntem siguri că veți fi impresionați de calitatea produselor noastre și de serviciile noastre excepționale. Sperăm că veți bucura de fructele delicioase cultivate în propriul dvs. grădină pentru mulți ani de acum înainte.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={`/social/socialMedia1.png`} alt={'social media 1'} />
