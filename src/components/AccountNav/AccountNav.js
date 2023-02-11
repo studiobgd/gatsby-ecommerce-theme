@@ -16,35 +16,35 @@ const AccountNav = (props) => {
           to={'/cont/comenzi'}
           className={styles.webLink}
         >
-          Orders
+          Comenzi
         </Link>
         <Link
           activeClassName={styles.activeLink}
           to={'/cont/adresa'}
           className={styles.webLink}
         >
-          Addresses
+          Adresa
         </Link>
         <Link
           activeClassName={styles.activeLink}
           to={'/cont/setari'}
           className={styles.webLink}
         >
-          Settings
+          Setari
         </Link>
         <Link
           activeClassName={styles.activeLink}
           to={'/cont/vizionate'}
           className={styles.webLink}
         >
-          Recently Viewed
+          Recente
         </Link>
         <span
           role={'presentation'}
           onClick={handleLogout}
           className={styles.webLink}
         >
-          Logout
+          iesi
         </span>
       </div>
     </div>
