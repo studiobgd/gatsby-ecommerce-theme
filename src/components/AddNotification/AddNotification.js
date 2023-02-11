@@ -31,7 +31,7 @@ const AddNotification = (props) => {
         <div className={styles.iconContainer}>
           <Icon symbol={'check'}></Icon>
         </div>
-        <span>Item added to bag</span>
+        <span>Adaugat in cos</span>
       </div>
 
       <div className={styles.newItemContainer}>
@@ -47,13 +47,13 @@ const AddNotification = (props) => {
 
       <div className={styles.actionContainer}>
         <Button onClick={props.openCart} level={'secondary'}>
-          view my bag (1)
+          vezi cosul(1)
         </Button>
         <Button level="primary" href="/cart">
           checkout
         </Button>
         <div className={styles.linkContainer}>
-          <Link to={'/shop'}>continue shopping</Link>
+          <Link to={'/shop'}>continua</Link>
         </div>
       </div>
     </div>
