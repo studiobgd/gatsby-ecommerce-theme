@@ -27,11 +27,11 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Free shipping worldwide';
+  const bannerMessage = 'Tu de unde iti cumperi pomi?';
   const searchSuggestions = [
-    'Oversize sweaters',
-    'Lama Pajamas',
-    'Candles Cinnamon',
+    'Meri Golden',
+    'Cais Carmela',
+    'Cires Amar',
   ];
 
   const handleHover = (navObject) => {
@@ -167,7 +167,7 @@ const Header = (prop) => {
             showSearch === true ? styles.show : styles.hide
           }`}
         >
-          <h4>What are you looking for?</h4>
+          <h4>Ce cauti?</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
             <FormInputField
               ref={searchRef}
