@@ -33,12 +33,12 @@ const Contact = (props) => {
           Echipa noastra este aici pentru dumneavoastra,
           8pm - 8am (Romania timezone)
         </p>
-        <pVa asteptam
+        <p>Va asteptam</p>
       </div>
 
       <div className={styles.section}>
         <h4>Phone</h4>
-        <p>0771543776
+        <p>0771543776 </p>
         <p>luni - Vineri ,8pm - 8am </p>
       </div>
 
