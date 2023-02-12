@@ -30,23 +30,23 @@ const Contact = (props) => {
       <div className={styles.section}>
         <h4>Send Us A Message</h4>
         <p>
-          Our Customer Service team are here for all enquiries Monday to Friday,
-          9am - 5pm AEDT (Australian Eastern Daylight Savings Time).
+          Echipa noastra este aici pentru dumneavoastra,
+          8pm - 8am (Romania timezone)
         </p>
-        <p>We look forward to hearing from you.</p>
+        <pVa asteptam
       </div>
 
       <div className={styles.section}>
         <h4>Phone</h4>
-        <p>+1 424 280 4971</p>
-        <p>Monday to Friday - 9am - 5pm AEDT</p>
+        <p>0771543776
+        <p>luni - Vineri ,8pm - 8am </p>
       </div>
 
       <div className={styles.section}>
         <h4>Email</h4>
         <p>
-          You can email our Customer Service team at customerservice@example.com
-          or via the contact form below:
+          Ne poti contacta echipa la bbogdanmarian24@gmail.com
+          sau prin formularul de mai jos.
         </p>
       </div>
 
