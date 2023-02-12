@@ -12,15 +12,15 @@
     { "value": "mandarin", "label": "普通话" }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/MatterDesign/",
-    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
+    "facebook": "https://www.facebook.com/barbu.bogdan.3304/",
+    "instagram": "https://www.instagram.com/barbubogdanhy/?fbclid=IwAR1JWcpZ5OVa4R0S1LM-YOR7XW-JfaWgO__xWcLtNSkMq8DVRBkfGj3dJ2U",
     "twitter": "https://twitter.com/hellomatter",
     "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
   },
   "paymentOptions": {
     "visa": true,
     "mastercard": true,
-    "amex": true
+    "amex": false
   },
   "footerLinks": [
     {
