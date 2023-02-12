@@ -29,7 +29,7 @@ const OrderSummary = (props) => {
           <div className={styles.labelContainer}>
             <span>Tax</span>
             <span>
-              <CurrencyFormatter amount={0} appendZero />
+              <CurrencyFormatter amount={30} appendZero />
             </span>
           </div>
         </div>
@@ -52,7 +52,7 @@ const OrderSummary = (props) => {
         <div className={styles.totalContainer}>
           <span>Total: </span>
           <span>
-            <CurrencyFormatter amount={440} appendZero />
+            <CurrencyFormatter amount={1} appendZero />
           </span>
         </div>
       </div>
@@ -65,7 +65,7 @@ const OrderSummary = (props) => {
           checkout
         </Button>
         <div className={styles.linkContainer}>
-          <Link to={'/shop'}>CONTINUE SHOPPING</Link>
+          <Link to={'/shop'}>CONTINUA CUMPARATURILE</Link>
         </div>
       </div>
     </div>
